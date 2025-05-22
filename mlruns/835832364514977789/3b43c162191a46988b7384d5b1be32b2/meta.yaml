@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Hp/OneDrive/Desktop/Projects/Pharama_Time_series_and_analysis/mlruns/835832364514977789/3b43c162191a46988b7384d5b1be32b2/artifacts
+end_time: 1747612848473
+entry_point_name: ''
+experiment_id: '835832364514977789'
+lifecycle_stage: active
+run_id: 3b43c162191a46988b7384d5b1be32b2
+run_name: forecasting_run
+run_uuid: 3b43c162191a46988b7384d5b1be32b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747612848257
+status: 4
+tags: []
+user_id: Hp

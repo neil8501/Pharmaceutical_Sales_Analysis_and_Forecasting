@@ -1,0 +1,45 @@
+# ─ Data & Target ───────────────────────────────────────────────────────────────
+data_path:      "TS-Sales.csv"
+date_col:       "Date"          # the raw date column in your CSV
+target_col:     "TotalSales"    # the raw sales column in your CSV
+
+# ─ Forecast Settings ───────────────────────────────────────────────────────────
+lags:           [1, 2, 3, 6, 12]     # months to use for lag features
+forecast_horizon: 12                # how many future months to predict
+feature_imp_csv: "feature_importance.csv"
+
+# ─ Modeling Features ──────────────────────────────────────────────────────────
+features:
+  - month
+  - quarter
+  - lag_1
+  - lag_2
+  - lag_3
+  - lag_6
+  - lag_12
+  - rolling_3m
+  - rolling_6m
+
+# ─ Prophet Params ─────────────────────────────────────────────────────────────
+prophet:
+  yearly: true
+  cps: 0.8
+  quarterly_period: 91.25    # ← spelled “quarterly” not “quaterly”
+  fourier_order: 5
+
+
+# ─ SARIMAX Params ─────────────────────────────────────────────────────────────
+sarimax:
+  pdq_range: [0, 1, 2]           # p,d,q search space
+
+# ─ LightGBM Params ────────────────────────────────────────────────────────────
+lgb:
+  num_leaves: 5
+  min_data_in_leaf: 1
+  min_data_in_bin: 1
+  n_estimators: 50
+  learning_rate: 0.1
+
+# ─ Output & Tracking ──────────────────────────────────────────────────────────
+output_csv:       "forecast_output.csv"
+mlflow_experiment: "Pharma_Sales_Forecasting"

@@ -1,0 +1,1 @@
+{'num_leaves': 5, 'min_data_in_leaf': 1, 'min_data_in_bin': 1, 'n_estimators': 50, 'learning_rate': 0.1}

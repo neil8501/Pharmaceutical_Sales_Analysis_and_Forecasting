@@ -1,0 +1,26 @@
+⚠️ Areas to Strengthen
+Quantify Impact
+
+-Add metrics such as “reduced report generation time by 80%,” “improved forecast accuracy to X%,” or “enabled data-driven decisions for a €Y M portfolio.”
+-Concrete numbers help me gauge ROI of your work.
+
+Documentation & Collaboration
+
+-Link to a GitHub repo or a README that walks through your M-code, DAX snippets and forecasting notebook.
+-Demonstrates version control, clear documentation, and ease of hand-off to teammates.
+
+Performance & Scale
+
+-If you’ve tested incremental refresh on >1 M rows or optimized query performance, call it out.
+-Shows you can handle enterprise-scale datasets, not just toy examples.
+
+Business Storytelling
+
+-   Include a slide or narrative that ties your insights back to decisions: e.g., 
+    “Based on the forecast, the team increased production of Antibiotics by 15% in Q3 to meet projected demand.”
+-Reinforces the “so what?” of your analysis.
+
+Model Governance
+
+-Briefly mention how you’d monitor model drift, retrain your forecasting pipeline, or manage versioning in Azure ML.
+-Signals an awareness of ML lifecycle beyond a one-off notebook.

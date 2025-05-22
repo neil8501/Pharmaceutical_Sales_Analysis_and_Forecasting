@@ -1,0 +1,10 @@
+feature,importance
+lag_1,40
+lag_2,37
+lag_6,30
+rolling_6m,25
+month,22
+rolling_3m,20
+lag_3,20
+lag_12,6
+quarter,0
