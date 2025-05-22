@@ -1,5 +1,8 @@
 # Pharmaceutical Sales Analysis & Forecasting
-<img src="https://github.com/sssingh/pharmaceutical-sales-analysis-powerbi/blob/main/images/pharma-title-image.png?raw=true" width="1000" height="500" />
+
+View the Report:
+https://app.powerbi.com/view?r=eyJrIjoiNTA2ZTMwOTItMzdkNS00MWRiLThkNGMtMzE0NDQzOTU3MDU2IiwidCI6ImU1YTA2ZjRhLTFlYzQtNGQwMS04ZjczLWU3ZGQxNWYyNjEzNCIsImMiOjN9
+
 ## Overview
 
 This project delivers a comprehensive solution for analyzing and forecasting sales data of a global pharmaceutical manufacturing company. It combines:
